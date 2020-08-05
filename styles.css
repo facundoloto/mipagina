@@ -1,0 +1,201 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+scroll-behavior: smooth;
+}
+
+.about{
+position: relative;
+top:50px;
+}
+h1,h2{
+  font-family: 'Roboto', sans-serif;
+
+}
+h2{
+  position: relative;
+  top:15px;
+  margin-top:80px;
+  margin-bottom:80px;
+  }
+  h4{
+  font-size:1.2rem;
+  }
+ h4,h6,p{
+  font-size:1.2rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+  .carousel-item img{
+    margin:0 auto;
+    max-height:300px;
+   max-width:350px
+  }
+ 
+.navbar ul li a{
+color:rgba(0, 0, 0,2);
+
+font-size:1.2rem;
+}
+.header-css{
+width:100vw;
+height:100vh;
+background-image: url("image/background.png") ;
+background-repeat:no-repeat;
+background-size:cover;
+color:rgba(255, 255, 255,.8);
+
+}
+.header-css #perfil{
+border-radius:100%;
+height:200px;
+width:200px;
+
+}
+.header-css img{
+display:flex;  /*centrar imagen */
+margin:0 auto;
+}
+.header-css button{
+display:flex;  /*centrar imagen */
+margin:0 auto;
+background:none;
+border:none;
+}
+.header-css h4::before{
+content: " ";
+background: url("image/icons8-consola-48.png");
+background-size:cover;
+display:inline-block;
+width:22px;
+height:22px;
+position:relative;
+top:6px;
+right:4px;
+animation-name:heartBeat;
+animation-duration:2.5s;
+animation-iteration-count: infinite;
+}
+.header-css img,h1,h4 {
+  margin-bottom:50px;
+  animation-name:ejemplo;
+  animation-duration:2.5s;
+  }
+.presentacion{
+position:relative;
+top:6em;
+}
+
+
+#navbarNav li{
+display:inline-block;
+font-size:1.2em;
+margin:2px;
+color:grey;
+opacity:0.5;
+}
+
+
+
+#scroll{
+animation-name:slideDown;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+.skill img{
+width:80px;
+height:80px;
+animation-name:opacity;
+animation-duration:2s;
+animation-iteration-count: infinite;
+
+}
+.container-nuevo{
+color: rgba(0, 0, 0,.5);
+width:100vw;
+}
+
+.contacto img{
+display:inline-block;
+}
+.contacto a{
+text-decoration:none;
+}
+.diploma{
+width:100vw;
+position: relative;
+right:5.3em;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.carousel-inner img{
+display:block;
+margin:0 auto;
+min-height:400px;
+min-width:400px;
+}
+.contacto a img:hover {
+opacity:.5;
+transition-duration:.5s;
+}
+@-webkit-keyframes slideDown {
+0%{
+-webkit-transform: translateY(-50%);
+opacity:1;
+
+}
+50%{
+-webkit-transform: translateY(10%);
+opacity:.5;
+}
+ 100%{
+-webkit-transform: translateY(-50%);
+opacity:1;
+ }
+				
+		
+}
+@-webkit-keyframes heartBeat {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    14% {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+  
+    28% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    42% {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+  
+    70% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @-webkit-keyframes opacity {
+    0% {
+          
+          opacity:1;
+    }
+    50%{
+          
+          opacity:.3;
+    }
+   100%{
+      
+      opacity:1;
+   }
+          
+      
+  }

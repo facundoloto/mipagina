@@ -1,0 +1,101 @@
+
+@media (min-width:320px)and (max-width:568px){
+h2{
+margin-top:50px;
+margin-bottom:50px;
+}
+h6{
+font-size:1em;
+}
+.header-css img {
+max-width:140px;
+max-height:140px;
+margin-bottom:10px;
+}
+
+.header-css h1{
+font-size:1.5em;
+}
+.header-css h4{
+font-size:1em;
+}
+.menu{
+   display:none;
+  }
+  .about{
+    margin-left:30px;
+  }
+  .about p{
+  margin-bottom:50px ;
+  
+  font-size:1em;
+  overflow: hidden;
+  }
+  #scroll{
+  width:30px;
+  height:30px;
+  }
+  .skill img{
+    width: 60px;
+    height:60px;
+    animation-name:opacity;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    }
+   
+ .carousel-item img{
+   margin:0 auto;
+   min-height:230px;
+   min-width:230px;
+ }
+
+  .contacto img{
+    display:block;
+    margin:0 auto;
+    animation-name:opacity;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+
+  }
+  .diploma{
+    
+    position: relative;
+    right:15px;
+  
+    }
+  .presentacion{
+   position:relative;
+    top:4em; 
+    }
+    #navbarNav li{
+      display:inline-block;
+      font-size:1em;
+      margin:2px;
+      color:white;
+      }
+      
+  }
+  @media (max-width:320px)
+  {
+
+    .presentacion img{
+    max-width:110px;
+    max-height:110px;
+    }
+    .presentacion h1,h4{
+    margin:8px;
+    }
+   .presentacion button{
+    max-width:20px;
+    max-height:20px;
+    position:relative;
+    top:20px;
+    }
+  }  
+
+
+
+
+
+
+
