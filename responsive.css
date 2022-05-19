@@ -35,6 +35,7 @@ font-size:1em;
     height:300px;
     margin-right:40px;
     float:left;
+    border-radius: 100%;
     }
   #scroll{
   width:30px;
