@@ -1,6 +1,9 @@
 
 @media (min-width:320px)and (max-width:568px){
-h2{
+h1 {
+font-size:1.6em;
+}
+  h2{
 margin-top:50px;
 margin-bottom:50px;
 }
