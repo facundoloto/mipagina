@@ -24,8 +24,8 @@ h2{
   }
 
  p{
-  color: #31c1fa;
-  font-size:1.3rem;
+  color: #57cfff;
+  font-size:1.2rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   }
@@ -44,7 +44,7 @@ h2{
  margin-right:15px;
  }
  .bg-card p {
-  color:#36AE7C;
+  color:#4ce9a8;
  }
 
 .bg-main {
@@ -107,9 +107,6 @@ margin-right:40px;
 float:left;
 }
 
-.about-img{
-margin-right:-10em;
-}
 
 .container-about {
 width:100%;
@@ -166,6 +163,9 @@ height:10vh;
 width:100%;
 }
 
+footer p {
+  color:#50ffb6;
+}
 .contacto img{
 display:inline-block;
 }
