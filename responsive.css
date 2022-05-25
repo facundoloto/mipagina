@@ -1,7 +1,7 @@
 
 @media (min-width:320px)and (max-width:568px){
 h1 {
-font-size:1.6em;
+font-size:1.9em;
 }
   h2{
 margin-top:50px;
@@ -17,9 +17,7 @@ max-height:140px;
 margin-bottom:10px;
 }
 
-.header-css h1{
-font-size:1.5em;
-}
+
 .header-css h4{
 font-size:1em;
 }
@@ -39,6 +37,10 @@ font-size:1em;
     margin-right:40px;
     float:left;
     border-radius: 100%;
+    box-shadow: -10px 3px 23px -2px rgba(158,142,142,0.75);
+    -webkit-box-shadow: -10px 3px 23px -2px rgba(158,142,142,0.75);
+    -moz-box-shadow: -10px 3px 23px -2px rgba(158,142,142,0.75);
+    margin-bottom:1em;
     }
   #scroll{
   width:30px;

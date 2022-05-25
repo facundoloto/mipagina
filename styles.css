@@ -5,9 +5,13 @@ padding:0;
 scroll-behavior: smooth;
 font-family: 'Roboto', sans-serif;
 }
+body{
+background-color: #0d202c;
+}
 
 h1 {
   font-family: 'Monoton', cursive;
+  color:#EB5353;
 }
 
 h2{
@@ -15,20 +19,33 @@ h2{
   top:15px;
   margin-top:80px;
   margin-bottom:80px;
-  font-size:1.2rem;
+  font-size:1rem;
   font-family: 'Open Sans', sans-serif;
   }
 
  p{
-  font-size:1.2rem;
+  color: #31c1fa;
+  font-size:1.3rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   }
 
-  .text-violet {
-  color:#391E46 !important;
-  font-family: 'Roboto', sans-serif;
+  h6 { 
+  color:#57ffb9;
   }
+
+  h4 {
+  color:#EFD345;
+  }
+ .bg-dark{
+  background-color:#000000 !important;
+ }
+ .bg-dark button{
+ margin-right:15px;
+ }
+ .bg-card p {
+  color:#36AE7C;
+ }
 
 .bg-main {
   background-image: url("image/bg-code.jpg");
@@ -36,18 +53,12 @@ h2{
   background-size:cover; 
   width:100%;
 }
-
-  .carousel-item img{
-    margin:0 auto;
-    max-height:300px;
-   max-width:350px
-  }
  
 .navbar ul li a{
 color:rgba(0, 0, 0,2);
-
 font-size:1.2rem;
 }
+
 .header-css{
 width:100%;
 height:100vh;
@@ -61,6 +72,7 @@ margin:0 auto;
 background:none;
 border:none;
 }
+
 .header-css h3::before{
 content: " ";
 background: url("image/icons8-consola-48.png");
@@ -75,6 +87,7 @@ animation-name:heartBeat;
 animation-duration:2.5s;
 animation-iteration-count: infinite;
 }
+
 .header-css img,h1,h3 {
   margin-bottom:50px;
   animation-name:ejemplo;
@@ -96,7 +109,6 @@ float:left;
 
 .container-about {
 width:100%;
-
 }
 
 .presentacion {
@@ -111,20 +123,15 @@ opacity:0.8;
 color:rgba(255, 255, 255,.8) !important;
 }
 
-
-
 #scroll{
 animation-name:slideDown;
 animation-duration:2s;
 animation-iteration-count: infinite;
 }
 
-
-
 .skill {
 width:100%;
 height:60vh;
-background-color: rgb(238, 238, 238);
 margin-top:16em;
 }
 
@@ -154,15 +161,15 @@ footer {
 height:10vh;
 width:100%;
 }
-.contacto {
-  background-color: rgb(238, 238, 238);
-}
+
 .contacto img{
 display:inline-block;
 }
+
 .contacto a{
 text-decoration:none;
 }
+
 .contacto a img:hover {
 opacity:.5;
 transition-duration:.5s;
