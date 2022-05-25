@@ -107,6 +107,10 @@ margin-right:40px;
 float:left;
 }
 
+.about-img{
+margin-right:-10em;
+}
+
 .container-about {
 width:100%;
 }
